@@ -2,3 +2,44 @@
     padding: 0;
     margin: 0;
 }
+
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0 0 30px;
+}
+
+#logo-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#logo-pic {
+    width: 45px;
+    margin-right: 10px;
+}
+
+#logo-text {
+    font-size: 30px;
+    margin-right: 500px;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+#nav-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+#nav-list li {
+    margin: 0 50px;
+    font-size: 18px;
+}
+
+.nav-links {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
