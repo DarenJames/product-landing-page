@@ -56,16 +56,21 @@ body {
     text-decoration: none;
 }
 
-#title-div {
-    margin: 120px auto 0;
-}
-
-#title {
-    font-size: 25px;
-    font-family: 'Kaisei HarunoUmi', serif;
-}
-
-#violin-pic {
+#main-pic-div {
+    background-image: url(../images/violin-pic.jpg);
+    background-size: cover;
+    background-position: bottom;
     width: 100vw;
-    margin: 20px auto 0;
+    height: 100vh;
+}
+
+#pic-text-div {
+    margin: 230px 0px 0px 80px;
+    width: 20vw;
+}
+
+#pic-text {
+    font-family: 'Allison', cursive;
+    font-size: 90px;
+    line-height: 85px;
 }
