@@ -81,7 +81,7 @@ body {
     margin-top: 30px;
 }
 
-#h1-features {
+.h1-sections {
     font-family: 'ZCOOL KuaiL', cursive;
 }
 
@@ -127,4 +127,21 @@ body {
 
 #quality-assurance-pic {
     width: 70px;
+}
+
+#video-max-width {
+    max-width: 300px;
+}
+
+#video-wrapper {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+}
+
+#video-wrapper iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
 }
