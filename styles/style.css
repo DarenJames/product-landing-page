@@ -77,8 +77,16 @@ body {
     line-height: 85px;
 }
 
+#h1-features-div {
+    margin-top: 30px;
+}
+
+#h1-features {
+    font-family: 'ZCOOL KuaiL', cursive;
+}
+
 #features {
-    margin-top: 80px;
+    /* margin-top: 30px; */
     width: 70vw;
 }
 
