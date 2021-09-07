@@ -130,18 +130,18 @@ body {
 }
 
 #video-max-width {
-    max-width: 300px;
+    width: 100%; max-width: 800px;
+    margin: 3em auto;
 }
 
 #video-wrapper {
-    width: 100%;
-    height: 0;
+    width: 100%; max-width: 100%; height: 0;
     padding-bottom: 56.25%;
     position: relative;
 }
 
 #video-wrapper iframe {
-    position: absolute;
-    width: 100%;
-    height: 100%;
+    width: 100%; max-width: 100%; height: 100%;
+    position: absolute; 
+    top: 0; left: 0;
 }
