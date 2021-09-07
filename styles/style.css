@@ -190,4 +190,10 @@ body {
     padding: 10px 30px;
     font-size: 15px;
     border-radius: 2px; border: none;
+    transition-duration: .8s;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(242, 172, 60);
 }
