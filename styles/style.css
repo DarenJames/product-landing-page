@@ -82,7 +82,7 @@ body {
 
 #explore-div {
     font-family: 'Allison', cursive; font-size: 5vw;
-    margin: 24vh 0 0 45vw;
+    margin: 22vh 0 0 45vw;
     color: white;
 }
 
@@ -141,7 +141,7 @@ body {
 #video-outer-wrapper {
     width: 100%; max-width: 800px;
     margin: 3em auto;
-    border: 5px solid rgb(234, 198, 69);
+    border: 2px solid rgb(234, 198, 69);
 }
 
 #video-inner-wrapper {
@@ -163,12 +163,14 @@ body {
 #pricing {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 50px;
 }
 
 .price-box {
     width: 315px;
-    margin: 0 10px;
+    margin: 10px 10px 0;
     border: 1px solid black; border-radius: 1%;
     font-family: 'Roboto', sans-serif;
 }
