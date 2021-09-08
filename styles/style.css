@@ -12,7 +12,7 @@ body {
 
 #header {
     background-color: rgba(0, 0, 0, .43);
-    position: absolute;
+    position: fixed;
     width: 100vw;
     display: flex;
     flex-direction: row;
@@ -26,29 +26,31 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 5px 0 5px 40px;
+    width: 61vw;
 }
 
 #logo-pic {
     width: 40px;
-    margin-right: 10px;
+    margin: 5px 10px;
 }
 
 #logo-text {
     font-size: 30px;
-    margin-right: 450px;
     font-family: 'ZCOOL KuaiLe', cursive;
     color: white;
 }
 
 #nav-list {
+    width: 39vw;
     display: flex;
     flex-direction: row;
+    align-items: center;
     list-style: none;
 }
 
 #nav-list li {
-    margin: 0 50px;
+    width: 13vw;
+    text-align: center;
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
 }
@@ -247,4 +249,26 @@ body {
 
 #Copyright {
     color: #54595d;
+}
+
+@media only screen and (max-width: 800px) {
+    #nav-list {
+        display: none;
+    }
+
+    #logo-div {
+        width: 100vw;
+        justify-content: center;
+    }
+
+    #logo-pic {
+        width: 40px;
+        margin: 5px 10px 5px 0;
+    }
+    
+    #logo-text {
+        font-size: 30px;
+        font-family: 'ZCOOL KuaiLe', cursive;
+        color: white;
+    }
 }
