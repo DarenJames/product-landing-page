@@ -80,9 +80,15 @@ body {
     line-height: 12vh;
 }
 
+#explore-div-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 22vh;
+}
+
 #explore-div {
-    font-family: 'Allison', cursive; font-size: 5vw;
-    margin: 22vh 0 0 45vw;
+    font-family: 'Allison', cursive; font-size: 70px;
     color: white;
 }
 
@@ -263,10 +269,6 @@ body {
     #pic-text {
         font-size: 61px;
     }
-
-    #explore-div {
-        font-size: 50px;
-    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -287,7 +289,7 @@ body {
         display: none;
     }
 
-    #explore-div {
-        margin: 87vh 0 0 45vw;
+    #explore-div-wrapper {
+        margin-top: 84.5vh;
     }
 }
